@@ -1,4 +1,5 @@
 let computerPlay = function(){
     let randomPick = Math.floor(Math.random()*3)+1;
-    console.log(randomPick);
+    let handForm = ["Rock", "Paper", "Scissors"];
+    console.log(handForm[randomPick-1]);
 }
